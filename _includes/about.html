@@ -1,27 +1,218 @@
- <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
+ 
+<style type="text/css">
+   .progress {
+      height: 18px;
+
+   }
+   .progress-bar {
+      text-align: left;
+      white-space: nowrap;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+   }
+   .progress .progress-bar {
+      font-size: 12px;
+      line-height: 18px;
+   }
+
+   .progress-bar > .progress-type {
+      padding-left: 10px;
+   }
+
+   .progress-meter {
+      min-height: 15px;
+      border-bottom: 2px solid white;
+      margin-bottom: 50px;
+   }
+
+   .progress-meter > .meter {
+      position: relative;
+      float: left;
+      min-height: 15px;
+      border-width: 0px;
+      border-style: solid;
+      border-color: white;
+   }
+
+   .progress-meter > .meter-left {
+      border-left-width: 2px;
+   }
+
+   .progress-meter > .meter-right {
+      float: right;
+      border-right-width: 2px;
+   }
+
+   .progress-meter > .meter-right:last-child {
+      border-left-width: 2px;
+   }
+
+   .progress-meter > .meter > .meter-text {
+      position: absolute;
+      display: inline-block;
+      bottom: -20px;
+      width: 100%;
+      font-weight: 700;
+      font-size: 0.85em;
+      color: white;
+      text-align: left;
+   }
+
+   .progress-meter > .meter.meter-right > .meter-text {
+      text-align: right;
+   }
+</style>
+
+
+<!-- About Section -->
+<section class="success" id="about">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12 text-center">
+            <h2>Kurzprofil</h2>
+            <hr class="star-light">
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-6">
+            <p>Ich bin freiberuflicher Web Entwickler und User Interface Spezialist mit 3 Jahren Berufserfahrung in der Planung und Umsetzung von geräteübergreifenden, responsiven und modularen Frontend Architekturen auf Basis von Frameworks wie AngularJS. Ich habe ein abgeschlossenes Universitätsstudium im Bereich der Neurowissenschaften und Informatik. In zurückliegenden Projekten habe ich unter anderem als Leiter eines kleinen Teams die Entwicklung des Frontends von www.clubers.net übernommen und das User Interface von www.die-baulückenbörse.de konzipiert und umgesetzt.
+               Bitte zögern Sie nicht mich zu kontaktieren, um zu besprechen, wie meine Fähigkeiten Ihr Team positiv ergänzen werden.</p>
+         </div>
+         <div class="col-lg-6">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Über</h2>
-                    <hr class="star-light">
-                </div>
+               <h2 class="text-center">Skills<br/></h2>
+               <hr />
             </div>
             <div class="row">
-<!--                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>-->
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                   <i class="fa fa-clock-o"></i> Coming soon
-                </div>
+               <h4 class="text-center">Sprachen<br/></h4>
             </div>
-        </div>
-    </section>
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width: 90%;" data-toggle="tooltip" data-placement="top" title="JavaScript">
+                        <span class="progress-type">JavaScript</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;" data-toggle="tooltip" data-placement="top" title="CSS / CSS3">
+                        <span class="progress-type">CSS / CSS3</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;" data-toggle="tooltip" data-placement="top" title="HTML / HTML5">
+                        <span class="progress-type">HTML / HTML5</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;" data-toggle="tooltip" data-placement="top" title="PHP">
+                        <span class="progress-type">PHP</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;" data-toggle="tooltip" data-placement="top" title="mySQL">
+                        <span class="progress-type">mySQL</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;" data-toggle="tooltip" data-placement="top" title="Java EE">
+                        <span class="progress-type">Java EE</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;" data-toggle="tooltip" data-placement="top" title="Matlab">
+                        <span class="progress-type">Matlab</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;" data-toggle="tooltip" data-placement="top" title="C / C++">
+                        <span class="progress-type">C / C++</span>
+                     </div>
+                  </div>
+
+                  <div class="progress-meter">
+                     <div class="meter meter-left" style="width: 25%;"><span class="meter-text">Grundkenntnisse</span></div>
+                     <div class="meter meter-left" style="width: 25%;"><span class="meter-text">Erfahren</span></div>
+                     <div class="meter meter-right" style="width: 25%;"><span class="meter-text">Experte</span></div>
+                     <div class="meter meter-right" style="width: 25%;"><span class="meter-text">Fortgeschritten</span></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <h4 class="text-center">Tools / Arbeitsmethoden<br/></h4>
+            </div>
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;" data-toggle="tooltip" data-placement="top" title="Confluence">
+                        <span class="progress-type">Confluence</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;" data-toggle="tooltip" data-placement="top" title="Jira">
+                        <span class="progress-type">Jira</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;" data-toggle="tooltip" data-placement="top" title="Photoshop">
+                        <span class="progress-type">Photoshop</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width: 75%;" data-toggle="tooltip" data-placement="top" title="Git">
+                        <span class="progress-type">Git</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;" data-toggle="tooltip" data-placement="top" title="SVN">
+                        <span class="progress-type">SVN</span>
+                     </div>
+                  </div>
+                  <div class="progress-meter">
+                     <div class="meter meter-left" style="width: 25%;"><span class="meter-text">Grundkenntnisse</span></div>
+                     <div class="meter meter-left" style="width: 25%;"><span class="meter-text">Erfahren</span></div>
+                     <div class="meter meter-right" style="width: 25%;"><span class="meter-text">Experte</span></div>
+                     <div class="meter meter-right" style="width: 25%;"><span class="meter-text">Fortgeschritten</span></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <h4 class="text-center">Ausgewählte Technologien<br/></h4>
+            </div>
+            <div class="row">
+               <div class="col-sm-12">
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;" data-toggle="tooltip" data-placement="top" title="AngularJS, KnockoutJS">
+                        <span class="progress-type">MV* (AngularJS, KnockoutJS)</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;" data-toggle="tooltip" data-placement="top" title="jQuery">
+                        <span class="progress-type">jQuery</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width: 75%;" data-toggle="tooltip" data-placement="top" title="NodeJS">
+                        <span class="progress-type">NodeJS</span>
+                     </div>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;" data-toggle="tooltip" data-placement="top" title="Phonegap / Cordova">
+                        <span class="progress-type">Phonegap / Cordova</span>
+                     </div>
+                  </div>
+
+                  <div class="progress-meter">
+                     <div class="meter meter-left" style="width: 25%;"><span class="meter-text">Grundkenntnisse</span></div>
+                     <div class="meter meter-left" style="width: 25%;"><span class="meter-text">Erfahren</span></div>
+                     <div class="meter meter-right" style="width: 25%;"><span class="meter-text">Experte</span></div>
+                     <div class="meter meter-right" style="width: 25%;"><span class="meter-text">Fortgeschritten</span></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</section>

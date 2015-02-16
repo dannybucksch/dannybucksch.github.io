@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+title: Die-Baulückenbörse.de
+date: 2014-07-18
+img: blm_logo_web.png
+alt: image-alt
+project-date: Juni 2012 - Mai 2013
+client: ZMK Mediengesellschaft
+category: Frontend Development
+description: Das erste bundsweite Portal für kommunale Baulücken.
+
+---

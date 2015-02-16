@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 title: Teamleiter Frontend Entwicklung
-date: 2014-07-18
+date: 2015-02-01
 img: clubers.png
 alt: image-alt
 project-date: Juni 2013 - Februar 2015
